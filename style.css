@@ -1,13 +1,13 @@
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 img{
     max-width: 100%;
 }
+/* Service Section CSS Start  */
 .service {
     padding: 80px 0;
 }
-.service-content{}
 .service-content span {
     color: #3763eb;
     font-size: 18px;
@@ -52,3 +52,138 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+/* Service Section CSS End  */
+/* Blog Section CSS End  */
+.blog{}
+.blog-text span {
+    display: inline-block;
+    font-size: 18px;
+    color: #3763eb;
+    margin: 10px 0;
+}
+.blog-text h1 {
+    position: relative;
+    margin-bottom: 25px;
+}
+.blog-text h1::after {
+    content: "";
+    position: absolute;
+    bottom: -44px;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width: 6%;
+    height: 2px;
+    background: #3763eb;
+}
+.blog-text p {
+    font-size: 20px;
+    color: #7c7c7c;
+    max-width: 42%;
+    margin: auto;
+    padding-bottom: 34px;
+}
+.blog-box{
+    position: relative;
+}
+.blog-box img{
+    border-radius: 5px;
+}
+.blog-btn {
+    position: absolute;
+    bottom: 210px;
+    right: 20px;
+    background: #3763eb;
+    padding: 5px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+}
+.blog-btn:hover{
+    background: #fff;
+    color: #3763eb;
+}
+.blog-btn img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: -14px;
+    
+}
+.blog-box h5 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.blog-box p {
+    color: #7c7c7c;
+    font-size: 21px;
+    font-weight: 400;
+}
+/* Blog Section CSS End  */
+/* Footer-Top Section CSS Start  */
+.footer-top{
+    background: #081828;
+    display: flex;
+    justify-content: center;
+}
+.footer-top p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-icon ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-icon ul li{
+    display: inline-block
+}
+.footer-icon ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer-link h5 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.footer-link h5::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -13px;
+    width: 3px;
+    height: 24px;
+    background: #3763eb;
+}
+.footer-link ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-link ul li a:hover{
+   letter-spacing: 1px;
+}
+.footer-link ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+/* Footer-Top Section CSS End  */
+/* Footer Section CSS Start  */
+footer{
+    background: #081828;
+}
+footer p {
+    margin: 0;
+    font-size: 25px;
+}
+/* Footer Section CSS End  */
